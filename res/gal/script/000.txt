@@ -1,0 +1,30 @@
+SCENE ROOM
+CHAR SHOW A GES1 MID
+BGM START Stories.mp3
+TEXT 少女 「我出现在了屏幕中间。」 X
+TEXT 少女 「没有人为我配音……」 X
+TEXT X 这句是旁白。
+CHAR SHOW A GES2 MID
+TEXT 少女 「我换了一个姿势。」 X
+TEXT 少女 「这是超长的句子。这是超长的句子。这是超长的句子。这是超长的句子。这是超长的句子。」 X
+CHAR REMOVE A
+TEXT 少女 「我消失了……」 X
+TEXT 少女 「我在哪里呢？」 X
+TEXT X 哪里都没有少女的影子……
+CHAR SHOW A GES1 LEFT
+TEXT 少女 「我在左边。」 X
+TEXT 少女 「嘿嘿！」 X
+CHAR REMOVE A
+TEXT X 少女又一次不见了。
+CHAR SHOW A GES2 RIGHT
+TEXT 少女 「我在右边。」 X
+TEXT 少女 「来抓我啊！」 X
+CHAR REMOVE A
+TEXT X 少女再次凭空消失。
+TEXT 少女 「换个背景音乐吧？」 X
+BGM START DESERT.mp3
+CHAR SHOW A GES1 MID
+TEXT 少女 「如何？」 X
+CHAR SHOW A GES2 MID
+TEXT 少女 「跳转测试。」 X
+GOTO 000
