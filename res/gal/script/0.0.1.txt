@@ -1,0 +1,7 @@
+TEXT 少女 X 「Chapter 0.0.1 : 001」
+TEXT 少女 X 「Chapter 0.0.1 : 002」
+TEXT 少女 X 「Chapter 0.0.1 : 003」
+TEXT 少女 X 「Chapter 0.0.1 : 004」
+TEXT 少女 X 「Chapter 0.0.1 : 005」
+TEXT 少女 X 「Goto 0.0.0」
+GOTO 0.0.0
