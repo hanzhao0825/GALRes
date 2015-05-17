@@ -1,0 +1,79 @@
+SCENE ROOM
+TEXT 雨人 X 「里面这个黑头发的姑娘，似乎也挺不错啦……」
+CHAR SHOW JIZI RIGHT POSE=POSE3 EYEBROWS=DEFAULT EYES=HALFOPEN MOUTH=SMILEOPEN PLUS=X
+CHAR SHOW YEZI LEFT POSE=POSE2 EYEBROWS=ANGRY EYES=DEFAULT MOUTH=UNHAPPY PLUS=ANGRYMARK
+TEXT 叶子 X 「哥哥！那个姑娘看上去就是一副不谙世事的柔弱样，有什么好的！」
+TEXT X 叶子好像发现了我的视线，对我怒目而视。
+TEXT X 我赶紧配上笑脸。生日里的哥哥果真是难做啊……
+CHAR SHOW JIZI RIGHT POSE=POSE2 EYEBROWS=DEFAULT EYES=DEFAULT MOUTH=SMILEOPEN PLUS=X
+TEXT 季子 X 「对了，感觉风格就是普通的恋爱冒险游戏啊，那制作者为什么要绞尽脑汁设计这么科幻又宏大的世界观背景呢？」
+CHAR SHOW YEZI LEFT POSE=POSE3 EYEBROWS=DEFAULT EYES=DEFAULT MOUTH=OPEN PLUS=X
+TEXT 叶子 X 「科幻风格…？可是这里面都没有什么新鲜的科技啊…?」
+TEXT 雨人 X 「这可是中古时代的游戏啊…叶子……」
+TEXT X 我忍不住回答了一脸茫然的叶子蠢蠢的问题。
+CHAR SHOW YEZI LEFT POSE=POSE2 EYEBROWS=ANGRY EYES=DEFAULT MOUTH=SMILE PLUS=X
+TEXT 叶子 X 「哦对哦，但是哥哥，中古时代的游戏也好难呐！」
+TEXT X 叶子一边飞速按着键盘，一边紧盯着电脑屏幕。
+CHAR REMOVE YEZI
+CHAR REMOVE JIZI
+TEXT X 屏幕上的是一个小人，在令人头晕眼花的彩色子弹间穿梭。并不断对另一个展开攻击。
+TEXT 雨人 X 「弹幕射击？而且叶子你还调到了最高难度？」
+TEXT X 作为游戏「专家」的我，准确说出了游戏类型。但这种考验反应的游戏，叶子的水平是我一辈子都难以企及的。
+TEXT X 这个时候叶子身体里散发出来的气场，已经足以让我和季子面面相觑，噤若寒蝉。
+
+CHAR SHOW JIZI RIGHT POSE=POSE2 EYEBROWS=DEFAULT EYES=DEFAULT MOUTH=SMILEOPEN PLUS=X
+CHAR SHOW YEZI LEFT POSE=POSE3 EYEBROWS=DEFAULT EYES=CLOSED1 MOUTH=OPEN PLUS=X
+TEXT X 随着对方小人的血量终于归零，叶子「啊」地长吐一口气，直接瘫靠在了椅背。我和季子赶紧送上了掌声。
+TEXT 雨人 X 「叶子真厉害呢，但为什么每次都要这么自虐地选最难的啊！」
+CHAR SHOW JIZI RIGHT POSE=POSE1 EYEBROWS=POWER EYES=CLOSED1 MOUTH=OPEN2 PLUS=X
+TEXT 季子 X 「叶妹妹才不像雨人你顾虑这么多呢，最难的往往也会是最好的啊。」
+TEXT X 季子一边帮叶子揉着手部关节，一边意味深长地对我开着玩笑。
+CHAR SHOW YEZI LEFT POSE=POSE1 EYEBROWS=DEFAULT EYES=CLOSED1 MOUTH=SMILE PLUS=X
+TEXT 叶子 X 「哥哥你要不要也玩玩看？感觉还是蛮好玩的呢！」
+TEXT X 虽然我的确不如叶子啦，但玩游戏我还是有相当的信心的。
+TEXT 雨人 X 「好啊，但我玩不来你那么难的，给我调成中等难度吧。」
+
+CHAR REMOVE YEZI
+CHAR REMOVE JIZI
+TEXT X 大概五分钟后，我也瘫靠在了椅背上。
+TEXT X 在游戏系统弹出的写着「手残的家伙！是否要跳过本次战斗？->是；->否」的对话框下面，对方的小人对我挑衅般地张牙舞爪。
+CHAR SHOW YEZI LEFT POSE=POSE3 EYEBROWS=SAD EYES=DEFAULT MOUTH=LAUGH PLUS=SWEAT
+CHAR SHOW JIZI RIGHT POSE=POSE3 EYEBROWS=SAD EYES=CLOSED1 MOUTH=OPEN2 PLUS=X
+TEXT 季子 X 「咦…咦…连最简单难度还过不去呢~作为上军校的大男人来说，还真是丢人呢~~」
+TEXT X 现实中也有个恶魔在挖苦着我。
+TEXT 雨人 X 「哼，你们接着玩吧，我困死了。」
+TEXT X 一定是因为睡眠不足的缘故！我这样坚信着，走向了卧室。
+CHAR REMOVE YEZI
+CHAR REMOVE JIZI
+
+BGM START 09.mp3
+TEXT X 难得的叶子生日啊，我就这么赌气睡过去了！
+TEXT X 一醒来发现已经繁星满天，我立刻陷入了深深懊悔之中。
+TEXT X 整个房子都很安静，原先客厅里不时传来的嬉笑声也都随着太阳一起沉寂下去。树影在窗帘后面晃啊晃。
+TEXT X 在我冲出卧室去找叶子的时候，却发现她和季子还保持着我离去时候的位置，呆呆地看着屏幕。屏幕上缓缓播放着游戏的制作人员名单。
+TEXT 雨人 X 「怎么了？游戏不好玩吗？」
+TEXT X 我赶紧走上前去。
+CHAR SHOW YEZI MID POSE=POSE3 EYEBROWS=SAD EYES=DEFAULT MOUTH=OPEN PLUS=X
+TEXT X 叶子保持着呆呆的样子，双手还放在键盘上，睁大的双眼里带着一丝丝畏惧。
+CHAR SHOW JIZI RIGHT POSE=POSE3 EYEBROWS=SAD EYES=CLOSED1 MOUTH=DEFAULT PLUS=X
+CHAR SHOW YEZI LEFT POSE=POSE3 EYEBROWS=SAD EYES=DEFAULT MOUTH=OPEN PLUS=X
+TEXT 季子 X 「被假象欺骗了啊…」
+TEXT X 旁边的季子并没有回头，盯着屏幕，一边摇着头，一边喃喃自语。
+TEXT 季子 X 「这个游戏的设定和结局，比我们想到的要复杂得多……」
+TEXT 雨人 X 「怎么了吗？不就是普通的恋爱冒险？」
+CHAR SHOW JIZI RIGHT POSE=POSE3 EYEBROWS=SAD EYES=DEFAULT MOUTH=OPEN1 PLUS=X
+TEXT 季子 X 「这样说吧，之前我们跟你说起的每一句关于游戏的话，在通完游戏后，我发现竟然…」
+TEXTDURATION 20
+TEXT 季子 X 「都不是真的……」
+TEXTDURATION 1
+TEXT 雨人 X 「……」
+TEXT X ……
+CHAR JUMP YEZI HEIGHT=100 TIMES=5 DURATION=60
+CHAR SHOW YEZI LEFT POSE=POSE2
+CHAR SHOW YEZI LEFT EYEBROWS=ANGRY
+CHAR SCALE JIZI 1.5
+CHAR SCALE JIZI 1
+SCENESHAKE MAXX=100 MAXY=0 DURATION=60
+GOTO DEMO
+
+
