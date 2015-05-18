@@ -2,15 +2,21 @@ SCENE ROOM
 BGM START 03.mp3
 CHAR SHOW JIZI RIGHT POSE=POSE2 EYEBROWS=DEFAULT EYES=DEFAULT MOUTH=SMILEOPEN PLUS=X
 CHAR SHOW YEZI LEFT POSE=POSE1 EYEBROWS=DEFAULT EYES=DEFAULT MOUTH=LAUGH PLUS=X
-TEXT 叶子 X 「哎，这是个好老的游戏呢……」
+TEXT X 今天的阳光真好呢……
+TEXT X 这么晴朗的天气，本是在户外运动的好时候，但是我现在却被迫宅在家里。
+TEXT X 当然，我的前面还有两个丝毫不以此为耻的家伙。
+TEXT X 一个叫做季子——呃就是画面右边那个头上有两只触手的家伙——是我的青梅竹马。
+TEXT X 另一个——也就是左边的，头上有一大块奶酪的家伙——叫做叶子，是我的亲妹妹。
+TEXT X 叶子和季子围坐在桌边，叶子手里拿着的，是一款叫做《Hypnosis-催眠状态》的中古时代电脑游戏。
+TEXT 叶子 YEZI_001 「这是个好老的游戏呢……」
 TEXT 季子 X 「是啊，它发售的时候好像还没有家用的虚拟现实设备呢。」
 CHAR SHOW YEZI LEFT POSE=POSE3 EYEBROWS=DEFAULT EYES=DEFAULT MOUTH=TONGUE PLUS=X
-TEXT 叶子 X 「那真是好久好久以前了啊……」
+TEXT 叶子 YEZI_002 「那真是好久好久以前了啊……」
 TEXT 雨人 X 「喂，那么久远的东西，不会有病毒吧？我这老机器可禁不住病毒摧残……」
 CHAR SHOW JIZI RIGHT POSE=POSE2 EYEBROWS=DEFAULT EYES=CLOSED2 MOUTH=SMILE PLUS=X
 TEXT 季子 X 「所以玩的时候可能会觉得有些不习惯，但我保证制作质量和故事设定都是一级棒！」
 CHAR SHOW YEZI LEFT POSE=POSE3 EYEBROWS=DEFAULT EYES=CLOSED1 MOUTH=DEFAULT PLUS=X
-TEXT 叶子 X 「哇~！」
+TEXT 叶子 YEZI_003 「哇~！」
 TEXT X 所以…现在的状况是，她们两个完全在自说自话，忽略了我的存在。（当然还侵占了我的个人收藏——中古时代电脑）
 TEXT X 至于怎么变成现在这样的场面的，粗略来说就是这样：
 TEXT X 今天是叶子的生日，她迫不及待地来到了19岁。然后季子理所当然地来拜访，顺便为叶子带了款中古时代的游戏作为生日礼物。
@@ -18,35 +24,35 @@ TEXT X 呃，至于我为何会出现在这里…是因为叶子表示——
 CHAR REMOVE JIZI
 MASK YELLOW
 CHAR SHOW YEZI MID POSE=POSE1 EYEBROWS=ANGRY EYES=CLOSED2 MOUTH=UNHAPPY PLUS=X
-TEXT 叶子 X 「哥哥、哥哥，跟叶子一起玩好不好嘛！作为你那个糟糕的礼物的补偿~」
+TEXT 叶子 YEZI_004 「哥哥、哥哥，跟叶子一起玩好不好嘛！补偿一下你那个糟糕的礼物嘛~」
 TEXT X 呃…其实之前那个礼物也没多么糟糕啊……我可是花了一整天才做出来的，一把通红的宝剑。用作cosplay应该蛮合适的。
 CHAR SHOW YEZI MID POSE=POSE3 EYEBROWS=SAD EYES=CLOSED2 MOUTH=UNHAPPY PLUS=X
-TEXT 叶子 X 「但叶子才没有哥哥以前那么中二！而且剑柄这个五颜六色的轮子……！」
+TEXT 叶子 YEZI_005 「但叶子才没有哥哥以前那么中二呢！而且剑柄这个五颜六色的轮子……！」
 TEXT X 总之，叶子似乎不太喜欢我的礼物。
 TEXT X 所以从立场上，在她那样央求我陪她玩游戏的时候，我就无法拒绝了。
 MASK X
 CHAR SHOW YEZI LEFT POSE=POSE1 EYEBROWS=DEFAULT EYES=CLOSED1 MOUTH=SMILE PLUS=X
 CHAR SHOW JIZI RIGHT POSE=POSE3 EYEBROWS=SAD EYES=CLOSED1 MOUTH=OPEN2 PLUS=X
-TEXT 叶子 X 「哇OP看起来好有气势，一看就知道是游戏制作大厂的力作！」
+TEXT 叶子 YEZI_006 「哇！OP看起来好有气势，一看就知道是游戏制作大厂的力作！」
 TEXT 季子 X 「但名字起的可是有些中二呢，“催眠状态”…是什么意思呢，难道这是个催眠系游戏吗？」
 TEXT X 听着她们俩一边运行游戏一边聊得火热，我在旁边一边打哈欠一边听着。感觉这游戏真的是催眠系啊……
 CHAR JUMP YEZI HEIGHT=100 TIMES=5 DURATION=60
-TEXT 叶子 X 「季子姐姐！快看快看！男主角还蛮帅气的呢！」
+TEXT 叶子 YEZI_007 「季子姐姐！快看嘛！男主角还蛮帅气的呢！」
 CHAR SHOW JIZI RIGHT POSE=POSE3 EYEBROWS=DEFAULT EYES=HALFOPEN MOUTH=SMILEOPEN PLUS=X
 TEXT 季子 X 「哼，感觉看上去就浅薄地要死。你看这个游戏基本都是他的第一视角，就听他一个人心里吐槽个不停。」
-TEXT 叶子 X 「但是叶子感觉世界观设定好有意思呢，有三个处于乱战中的国家…男主角还是个军官呢！原来是战争游戏啊！」
+TEXT 叶子 YEZI_008 「但是叶子感觉世界观设定好有意思呢，有三个处于乱战中的国家…男主角还是个军官呢！原来是战争游戏啊！」
 CHAR SHOW JIZI RIGHT POSE=POSE1 EYEBROWS=POWER EYES=CLOSED1 MOUTH=OPEN2 PLUS=X
 TEXT 季子 X 「战争应该只是个背景吧，作为电子小说类游戏，应该主要是描写女主角和她们跟男主角的恋爱关系的？所以战争打得再火热，它也不会敢让女主角因战争而死掉的。」
 CHAR SHOW YEZI LEFT POSE=POSE2 EYEBROWS=ANGRY EYES=DEFAULT MOUTH=SMILE PLUS=X
-TEXT 叶子 X 「唔…季子姐姐说的有道理……那你喜欢这里面哪个女主角啊？」
+TEXT 叶子 YEZI_009 「唔…季子姐姐说的有道理……那你喜欢这里面哪个女主角啊？」
 CHAR SHOW JIZI RIGHT POSE=POSE2 EYEBROWS=DEFAULT EYES=CLOSED2 MOUTH=SMILE PLUS=X
 TEXT 季子 X 「我？我觉得这个青梅竹马就挺好。」
 TEXT X 季子指着屏幕上一个金黄色头发的家伙说道。
 CHAR SHOW YEZI LEFT POSE=POSE1 EYEBROWS=DEFAULT EYES=DEFAULT MOUTH=LAUGH PLUS=X
-TEXT 叶子 X 「这样啊…叶子倒是喜欢这个男主角的妹妹呢。」
+TEXT 叶子 YEZI_010 「这样啊…叶子倒是喜欢这个男主角的妹妹呢。」
 TEXT X 叶子指着的是另一个粉色头发的少女。
 TEXT X 话说…可以攻略自己的妹妹，这样的游戏真的没问题吗？！
 CHAR SHOW YEZI LEFT POSE=POSE1 EYEBROWS=DEFAULT EYES=CLOSED1 MOUTH=SMILE PLUS=X
-TEXT 叶子 X 「哥哥你呢？」
+TEXT 叶子 YEZI_011 「哥哥你呢？」
 
 SELECT 3 金发的青梅竹马 粉头发的妹妹角色 黑头发的传统女性 0.0.1 0.0.2 DEMO2 1 1 1

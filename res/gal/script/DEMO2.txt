@@ -2,17 +2,17 @@ SCENE ROOM
 TEXT 雨人 X 「里面这个黑头发的姑娘，似乎也挺不错啦……」
 CHAR SHOW JIZI RIGHT POSE=POSE3 EYEBROWS=DEFAULT EYES=HALFOPEN MOUTH=SMILEOPEN PLUS=X
 CHAR SHOW YEZI LEFT POSE=POSE2 EYEBROWS=ANGRY EYES=DEFAULT MOUTH=UNHAPPY PLUS=ANGRYMARK
-TEXT 叶子 X 「哥哥！那个姑娘看上去就是一副不谙世事的柔弱样，有什么好的！」
-TEXT X 叶子好像发现了我的视线，对我怒目而视。
+TEXT 叶子 YEZI_012 「哥哥！那个姑娘看上去就是一副不谙世事的柔弱样，有什么好的！」
+TEXT X 叶子好像并不太开心，对我怒目而视。
 TEXT X 我赶紧配上笑脸。生日里的哥哥果真是难做啊……
 CHAR SHOW JIZI RIGHT POSE=POSE2 EYEBROWS=DEFAULT EYES=DEFAULT MOUTH=SMILEOPEN PLUS=X
 TEXT 季子 X 「对了，感觉风格就是普通的恋爱冒险游戏啊，那制作者为什么要绞尽脑汁设计这么科幻又宏大的世界观背景呢？」
 CHAR SHOW YEZI LEFT POSE=POSE3 EYEBROWS=DEFAULT EYES=DEFAULT MOUTH=OPEN PLUS=X
-TEXT 叶子 X 「科幻风格…？可是这里面都没有什么新鲜的科技啊…?」
+TEXT 叶子 YEZI_013 「科幻风格…？可是这里面没有什么新鲜的科技啊…?」
 TEXT 雨人 X 「这可是中古时代的游戏啊…叶子……」
 TEXT X 我忍不住回答了一脸茫然的叶子蠢蠢的问题。
 CHAR SHOW YEZI LEFT POSE=POSE2 EYEBROWS=ANGRY EYES=DEFAULT MOUTH=SMILE PLUS=X
-TEXT 叶子 X 「哦对哦，但是哥哥，中古时代的游戏也好难呐！」
+TEXT 叶子 YEZI_014 「对哦，但是哥哥，中古时代的游戏也好难呐！」
 TEXT X 叶子一边飞速按着键盘，一边紧盯着电脑屏幕。
 CHAR REMOVE YEZI
 CHAR REMOVE JIZI
@@ -29,7 +29,7 @@ CHAR SHOW JIZI RIGHT POSE=POSE1 EYEBROWS=POWER EYES=CLOSED1 MOUTH=OPEN2 PLUS=X
 TEXT 季子 X 「叶妹妹才不像雨人你顾虑这么多呢，最难的往往也会是最好的啊。」
 TEXT X 季子一边帮叶子揉着手部关节，一边意味深长地对我开着玩笑。
 CHAR SHOW YEZI LEFT POSE=POSE1 EYEBROWS=DEFAULT EYES=CLOSED1 MOUTH=SMILE PLUS=X
-TEXT 叶子 X 「哥哥你要不要也玩玩看？感觉还是蛮好玩的呢！」
+TEXT 叶子 YEZI_015 「哥哥你要不要也玩玩看呢？感觉还是蛮好玩的呢！」
 TEXT X 虽然我的确不如叶子啦，但玩游戏我还是有相当的信心的。
 TEXT 雨人 X 「好啊，但我玩不来你那么难的，给我调成中等难度吧。」
 
@@ -68,6 +68,7 @@ TEXT 季子 X 「都不是真的……」
 TEXTDURATION 1
 TEXT 雨人 X 「……」
 TEXT X ……
+GOTO DEMO
 CHAR JUMP YEZI HEIGHT=100 TIMES=5 DURATION=60
 CHAR SHOW YEZI LEFT POSE=POSE2
 CHAR SHOW YEZI LEFT EYEBROWS=ANGRY
