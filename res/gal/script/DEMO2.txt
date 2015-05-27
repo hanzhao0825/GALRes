@@ -1,4 +1,3 @@
-SCENE ROOM
 TEXT 雨人 X 「里面这个黑头发的姑娘，似乎也挺不错啦……」
 CHAR SHOW JIZI RIGHT POSE=POSE3 EYEBROWS=DEFAULT EYES=HALFOPEN MOUTH=SMILEOPEN PLUS=X
 CHAR SHOW YEZI LEFT POSE=POSE2 EYEBROWS=ANGRY EYES=DEFAULT MOUTH=UNHAPPY PLUS=ANGRYMARK
@@ -46,8 +45,11 @@ TEXT X 一定是因为睡眠不足的缘故！我这样坚信着，走向了卧�
 CHAR REMOVE YEZI
 CHAR REMOVE JIZI
 
-BGM START 09.mp3
+SCENE BLACK BLACK
+BGM STOP
 TEXT X 难得的叶子生日啊，我就这么赌气睡过去了！
+SCENE HOME_EVENING BLACK
+BGM START 09.mp3
 TEXT X 一醒来发现已经繁星满天，我立刻陷入了深深懊悔之中。
 TEXT X 整个房子都很安静，原先客厅里不时传来的嬉笑声也都随着太阳一起沉寂下去。树影在窗帘后面晃啊晃。
 TEXT X 在我冲出卧室去找叶子的时候，却发现她和季子还保持着我离去时候的位置，呆呆地看着屏幕。屏幕上缓缓播放着游戏的制作人员名单。
